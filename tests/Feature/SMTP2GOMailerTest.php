@@ -85,7 +85,7 @@ class SMTP2GOMailerTest extends TestCase
     {
         // global $phpmailer;
         $GLOBALS['phpmailer'] = $this->setupMailer();
-        $result               = wp_mail(SMTP2GO_TEST_RECIPIENT, 'Test Send With WP MAIL', '<b>Test</b> Plain Send With WP MAIL', '', array('Content-Type: text/html; charset=UTF-8'));
+        $result               = wp_mail(SMTP2GO_TEST_RECIPIENT, 'Test Send With WP MAIL', 'Test Plain Send With WP MAIL', '', array());
         $this->assertTrue($result);
         $this->assertTrue($GLOBALS['phpmailer']->getSenderInstance()->getLastResponse()->data->succeeded == 1);
 
