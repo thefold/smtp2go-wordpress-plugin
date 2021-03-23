@@ -18,3 +18,5 @@ phpunit.phar
 /sitemap.xml
 /sitemap.xml.gz
 phpunit.xml
+phpunit.xml.bak
+phpunit_kris.xml
