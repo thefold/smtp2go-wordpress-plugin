@@ -19,4 +19,4 @@ phpunit.phar
 /sitemap.xml.gz
 phpunit.xml
 phpunit.xml.bak
-phpunit_kris.xml
+phpunit_private.xml
