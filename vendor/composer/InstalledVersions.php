@@ -1,5 +1,15 @@
 <?php
 
+
+
+
+
+
+
+
+
+
+
 namespace Composer;
 
 use Composer\Semver\VersionParser;
@@ -19,7 +29,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => 'f6172234f3307cd97ec0e32e26c0671bc3b45764',
+    'reference' => '4ec746013c92b8b9fb602c6fdc02e97cf67f702a',
     'name' => '__root__',
   ),
   'versions' => 
@@ -31,7 +41,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => 'f6172234f3307cd97ec0e32e26c0671bc3b45764',
+      'reference' => '4ec746013c92b8b9fb602c6fdc02e97cf67f702a',
     ),
     'guzzlehttp/guzzle' => 
     array (
@@ -119,13 +129,12 @@ private static $installed = array (
     ),
     'smtp2go-oss/smtp2go-php' => 
     array (
-      'pretty_version' => 'dev-dev',
-      'version' => 'dev-dev',
+      'pretty_version' => '1.0.0beta',
+      'version' => '1.0.0.0-beta',
       'aliases' => 
       array (
-        0 => '9999999-dev',
       ),
-      'reference' => '729304e52852c55ba6d7e73d1f5dd82ab3224bc4',
+      'reference' => '1a6d728fb69951f4e29f2722ddec3fe1ba4cba53',
     ),
   ),
 );
